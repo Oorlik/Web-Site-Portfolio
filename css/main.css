@@ -1,0 +1,333 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&family=Suez+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    overflow-x:hidden;
+    outline: none;
+}
+
+a{
+    text-decoration: none;
+    color:white;
+}
+img{max-width: 100%;}
+.header{
+    overflow-y:hidden;
+    background: #0A2640;
+    color:white;
+    height: 100vh;
+    position: relative;
+    transition: all 600ms ease;
+}
+.header .imgCenter{
+    margin: 60px 17%;
+}
+.header .position{
+    position: absolute;
+    left:67%;
+    z-index: 1;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 5%;
+   
+}
+.nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    z-index: 2;
+    
+}
+.nav ul b{
+ cursor: pointer;
+ display: none;
+}
+
+.nav ul li {
+    padding-right: 30px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.nav ul li a:hover{
+    color:  #bbb;
+    transition: all 500ms ease;
+}
+.nav ul li button{
+    border-radius: 50px;
+    background: white;
+    color:black;
+    margin-left: 20px;
+    width: 120px;
+    height: 50px;
+    font-weight: 600;
+    font-size: 15px;
+    cursor: pointer;
+}
+.nav ul li button:hover{
+    opacity: 0.5;
+    transition: all 500ms ease;
+}
+.nav ul span i{
+    cursor: pointer;
+}
+.nav ul span i:first-child{
+    margin-right: 30px;
+ 
+}
+.nav ul span i:first-child:hover{
+    color:#f5d25f;
+    
+   }
+   .nav ul span i:last-child:hover{
+    color:#4f8dff;
+    
+   }
+
+
+
+
+
+   .mainInfo{
+    display: flex;   
+    justify-content: space-between;
+    padding: 50px 8%;
+    
+   }
+   .graphic{
+    z-index: 2;
+    margin-top: 50px;
+   }
+   .graphic img{
+    width: 80%;
+   }
+
+   .info{
+    margin-top: 100px;
+    
+   }
+   .info h2{
+     font-size: 3.5em;
+     font-weight: normal;
+
+   }
+   .info h4{
+    margin-top: 20px;
+    font-size: 1.2em;
+    font-weight: normal;
+    color: #d8d8d8;
+    line-height: 1.5;
+   }
+.info button{
+    margin-left: 20px;
+    margin-top: 25px;
+    height: 50px;
+    width: 150px;
+    border-radius: 50px;
+    cursor: pointer;
+    border: 0;
+  
+}
+.info button:hover{
+    transform: scale(1.1);
+    transition: all 500ms ease;
+}
+.info .buy{
+    width: 200px;
+    background: #69E6A6;
+    font-weight: 600;
+    font-size: 17px;
+}
+.info .explore{
+    margin-left: 15px;
+    background: #0A2640;
+    border: 1px solid white;
+    color: white;
+    font-size: 16px;
+}
+#hidden-menu{
+    width: 300px;
+    position: fixed;
+    top:0;
+    right:-300px;
+    height: 100vh;
+    background: #fff;
+    z-index: 10;
+    text-align: center;
+  }
+  #hidden-menu .close{
+    font-size: 40px;
+    float:right;
+    margin-right: 20px;
+    cursor: pointer;
+    transition: color 600ms ease;
+  }
+  #hidden-menu .close:hover{
+    color: #ccc;
+  }
+  #hidden-menu h2{
+    margin-top: 100px;
+    margin-bottom: 20px;
+  }
+  #hidden-menu ul{
+    list-style-type: none;
+  
+  }
+  #hidden-menu ul li{
+    display: block;
+    margin-bottom: 10px;
+  }
+  #hidden-menu ul li a{
+    color: #333;
+  }
+  #hidden-menu ul li a:hover{
+    color: #ccc;
+  }
+
+main{
+    padding-top: 150px;
+}
+.infoService{
+    text-align: center;
+}
+.infoService h4{
+    font-weight: normal;
+    color: #777777;
+    margin-bottom: 15px;
+}
+.infoService h2{
+    font-size: 42px;
+    font-weight: normal;
+}
+
+.mainService{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.mainService div{
+    width: 300px;
+    border-radius: 15px;
+    margin: 100px 50px;
+       
+}
+.mainService div h3{
+    font-weight: normal;
+    margin: 10px 0;
+    font-size: 25px;
+}
+.mainService div h3:last-child{
+    font-size: 20px;
+    margin-top: 20px;
+    color: #013161;
+    position: relative;
+    transition: all 500ms ease;
+    cursor: pointer;
+}
+.mainService div h3:last-child:hover i{
+  transform: translateX(10px);
+  transition: all 500ms ease;
+  
+}
+
+.mainService div i{
+    position: absolute;
+    margin-top: 3px;
+    margin-left: 8px;
+}
+
+.mainService div h5{
+    font-weight: normal;
+    font-size: 15px;
+    color: #777777 ;
+}
+
+.bacgroundOtziv{
+    background: #0A2640;
+    color:white;
+}
+
+.bacgroundOtziv div h2{
+    padding: 100px 6%;
+    font-weight: 400;
+    font-size: 55px;
+}
+#slider{
+    margin-left: 5%;
+    padding-top: 5%;
+    position: relative;
+
+}
+
+
+ .block{
+    width: 400px;
+    height:400px;
+    background: white;
+    color:black;
+    border-radius: 15px;
+    margin-bottom: 100px;
+}
+.block h4{
+    font-size: 25px;
+    margin: 50px 50px;
+    font-weight: normal;
+    
+}
+.block p{
+    margin: 0 50px;
+}
+.block p img{
+    float: left;
+}
+.block p span{
+    color:#013161;
+    margin-left: 15px;
+    line-height: 1.5;
+    float: left;
+    font-weight: 600;
+}
+.block p span b{
+    font-weight: normal;
+    font-size: 15px;
+}
+.heightDiv{
+    height: 450px;
+}
+.leftArrow, .rightArrow{
+    margin-top: 10px;
+    position: absolute;
+    color:black;
+    left: 80%;
+    top: 0px;
+    right: 0;
+   width: 40px;
+   height: 40px;
+   border-radius: 50%;
+   background: white;
+   text-align: center;
+   transition: all 500ms ease;
+ 
+}
+.leftArrow:hover, .rightArrow:hover{
+ transform: scale(1.1);
+}
+.rightArrow{
+    z-index: 1;
+    margin-left: 50px;
+}
+.leftArrow i{
+    margin-top: 12px;
+}
+.rightArrow i{
+    margin-top: 12px;
+}
+.leftArrow{    
+    z-index: 1;
+
+}
